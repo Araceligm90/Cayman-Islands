@@ -1,0 +1,58 @@
+body {
+    background-color: #1899b2;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    background-image: url('stingray-underwater.jpg');
+    font-size: 60px;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: ivory;
+    border-radius: 50px;
+    margin: 50px 100px 100px 100px;
+    border: 0px 0px 0px 0px;
+    padding: 25px 25px 25px 25px;
+}
+
+.nav {
+    display: inline;
+    font-size: 25px;
+    padding: 20px 25px 20px 240px;
+    border: 5px 25px 5px 25px;
+    text-align: center;
+}
+
+li :hover {
+    background-color: ivory;
+    color: black;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    border-style: none;
+    border-width: 5px;
+    border-radius: 50px;
+    margin: 20x 100px 20px 100px;
+    border: 0px 0px 0px 0px;
+    padding: 25px 25px 25px 25px;
+}
+
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+ .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px 20px 20px 40px;
+  }
+
+  .low {
+    padding: 40px 40px 40px 40px;
+    font-size: 20px;
+  }
+
