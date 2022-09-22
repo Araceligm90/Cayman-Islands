@@ -14,6 +14,3 @@ let userName = askName();
     // document.write("That is a beautiful name!");
     //return message;
     // };
-
-// let message = askName()
-//document.write(message);
